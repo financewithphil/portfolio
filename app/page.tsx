@@ -7,6 +7,7 @@ import {
   Mail,
   Workflow,
 } from "lucide-react";
+import { MobileNav } from "@/components/mobile-nav";
 
 const proof = [
   "Next.js + Supabase in prod",
@@ -66,7 +67,7 @@ export default function Home() {
           }}
         />
         <div className="relative mx-auto w-full max-w-6xl px-6">
-          <nav className="flex items-center justify-between py-6">
+          <nav className="relative flex items-center justify-between py-6">
             <span className="font-display text-lg font-bold tracking-tight">Phillip Karaya</span>
             <div className="hidden items-center gap-8 text-sm text-white/70 md:flex">
               <a href="#work" className="transition hover:text-white">Work</a>
@@ -76,10 +77,11 @@ export default function Home() {
             </div>
             <a
               href="#contact"
-              className="rounded-lg bg-royal px-4 py-2 text-sm font-medium text-white transition hover:bg-royal-dark"
+              className="hidden rounded-lg bg-royal px-4 py-2 text-sm font-medium text-white transition hover:bg-royal-dark md:inline-flex"
             >
               Book a call
             </a>
+            <MobileNav />
           </nav>
 
           <div className="py-20 md:py-28">
