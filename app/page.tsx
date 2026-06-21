@@ -32,7 +32,7 @@ const work = [
     desc: "A reproducible benchmark for RAG retrieval quality across lexical, semantic, and hybrid retrievers, scored on recall, precision, MRR, and nDCG.",
     metric: "dense retriever · 0.957 nDCG@3",
     cta: "View on GitHub",
-    href: "https://github.com/financewithphil/rag-eval-harness",
+    href: "https://github.com/phillipkaraya/rag-eval-harness",
     accent: "red" as const,
   },
   {
@@ -199,7 +199,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://github.com/financewithphil"
+                href="https://github.com/phillipkaraya"
                 className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2.5 text-sm font-medium text-royal transition hover:bg-white/90"
               >
                 <GithubIcon className="size-4" />
@@ -213,7 +213,7 @@ export default function Home() {
                 Résumé
               </a>
               <a
-                href="https://github.com/financewithphil/rag-eval-harness"
+                href="https://github.com/phillipkaraya/rag-eval-harness"
                 className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-4 py-2.5 text-sm font-medium text-white transition hover:border-white/70"
               >
                 <FlaskConical className="size-4" />
@@ -243,7 +243,7 @@ export default function Home() {
           <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/50 md:flex-row md:items-center">
             <span className="font-display font-bold text-white/80">Phillip Karaya</span>
             <div className="flex gap-6">
-              <a href="https://github.com/financewithphil" className="transition hover:text-white">
+              <a href="https://github.com/phillipkaraya" className="transition hover:text-white">
                 GitHub
               </a>
               <a href="#" className="transition hover:text-white">
